@@ -6,7 +6,7 @@ This project implements image classification using computer vision concepts from
 ## My Classification Task
 **Classes:** Rock, Paper, Scissors
 **Training Images:** Rock = 46, Paper = 41, Scissors = 90
-**Accuracy:** Around 60%
+**Accuracy:** Around 40-70% - Accurate with Scissors and Rock but struggles with paper 
 
 ## How to Run
 1. **Install Requirements**
@@ -53,4 +53,5 @@ I struggled to get the Teachable Machine algorithm to accurately categorize my t
 In my opinion, computer vision raises privacy concerns because cameras can constantly capture people without their awareness. Another issue is algorithmic bias, where models can misidentify certain groups of people or objects if the training data isn’t diverse or sufficient. There is also always the risk of misuse, since surveillance systems can be used in ways that violate personal freedoms or monitor people without proper consent.
 
 ## What I Learned
+
 I learned that computer vision works by converting images into numerical data so the model can identify edges, textures, and shapes. I also learned how neural networks detect patterns layer by layer and combine those features to recognize full objects. Finally, I learned how important consistant high-quality training images are, since even small differences can affect accuracy. Overall, this project helped me to understand how the data and model architecture influence how well an image classifier preforms.
